@@ -1,0 +1,40 @@
+.task-list {
+    position: relative;
+    text-align: start;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    border-bottom: dotted 1px black;
+    margin-top: 1rem;
+}
+
+.cb {
+    zoom: 2;
+}
+
+.task-list button {
+    position: absolute;
+    right: 0.5rem;
+    background: transparent;
+    border: none;
+    color: red;
+    font-size: 1rem;
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+}
+
+.task-list button:hover {
+    padding: .5rem;
+    transition: .3s;
+    border: lightseagreen solid 1px;
+    border-radius: 20%;
+}
+
+.taskName {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    width: 80%;
+}

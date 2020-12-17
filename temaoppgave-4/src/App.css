@@ -1,0 +1,58 @@
+body {
+  background-color: white;
+}
+
+.App {
+  position: relative;
+  background-color: moccasin;
+  min-height: 40rem;
+  width: 30rem;
+  margin: auto;
+  border: saddlebrown 1px solid;
+  border-radius: 5%;
+}
+
+header {
+  font-family: cursive;
+  color: lightseagreen;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  width: fit-content;
+  height: fit-content;
+}
+
+main {
+  font-family: cursive;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.new-task input {
+  background-color: transparent;
+  margin-bottom: 1rem;
+  width: 18rem;
+  text-align: start;
+  font-family: cursive;
+  font-size: 1.5rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: solid 1px black;
+  outline: none;
+}
+
+.new-task button {
+  position: absolute;
+  right: 1.2rem;
+  font-family: cursive;
+  font-size: 1.2rem;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 5%;
+  background-color: lightseagreen;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
